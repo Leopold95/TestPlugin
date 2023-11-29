@@ -1,0 +1,16 @@
+message-sight-setted: "Ты можешь убивать взглядом!"
+message-arrow-setted: "Твои стрелы бьют молнией!"
+message-snowball-setted: "Считай, что ты поджигатель!"
+
+#максимальная дистанция для ударов молнии взглядом
+lightning-max-dist: 50
+
+snowball-radius: 7.0
+snowball-fire-seconds: 3
+
+
+
+
+
+
+
