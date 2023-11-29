@@ -7,10 +7,7 @@ import me.leopold95.testplugin.globals.Globals;
 import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.Particle;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Player;
-import org.bukkit.entity.Snowball;
+import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -48,7 +45,7 @@ public class SnowballListeners implements Listener {
 				event.getHitBlock().getLocation(),
 				radius, radius, radius);
 
-		for(var ent : collection){
+		for(Entity ent : collection){
 			if (!(ent instanceof LivingEntity))
 				continue;
 

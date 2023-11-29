@@ -34,7 +34,7 @@ public class Config {
 			configFile.getParentFile().mkdirs();
 			TestPlugin.getPlugin().saveResource(file, false);
 		}
-		var config = new YamlConfiguration();
+		YamlConfiguration config = new YamlConfiguration();
 		try {
 			config.load(configFile);
 			config.save(configFile);
