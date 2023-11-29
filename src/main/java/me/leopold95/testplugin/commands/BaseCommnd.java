@@ -1,4 +1,4 @@
-package me.leopold95.testplugin.commnds;
+package me.leopold95.testplugin.commands;
 
 import me.leopold95.testplugin.TestPlugin;
 import me.leopold95.testplugin.core.States;

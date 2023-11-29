@@ -1,4 +1,4 @@
-package me.leopold95.testplugin.commnds;
+package me.leopold95.testplugin.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

@@ -1,7 +1,7 @@
 package me.leopold95.testplugin;
 
-import me.leopold95.testplugin.commnds.BaseCommnd;
-import me.leopold95.testplugin.commnds.BaseTabCompliter;
+import me.leopold95.testplugin.commands.BaseCommnd;
+import me.leopold95.testplugin.commands.BaseTabCompliter;
 import me.leopold95.testplugin.core.Config;
 import me.leopold95.testplugin.listeners.PlayerJoin;
 import me.leopold95.testplugin.listeners.mechanics.BowListners;
